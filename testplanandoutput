@@ -1,2 +1,17 @@
-## Test plan and test ouput
-# ->Add all the test paln and test output related files under thsi folder
+# Test Plan:
+
+## High level test plan
+
+| **Test ID** | **Description**                                              | **Exp I/P** | **Exp O/P** | **Actual Out** |    
+|-------------|--------------------------------------------------------------|------------|-------------|----------------|------------------|
+|  H_01       |Check if Menu Screen is displayed |  No input | Menu is displayed properly|Obtained the required results|
+|  H_02       |Check if input is working from user| Input |It responds to input|Obtained the required results|
+|  H_03       |Check if user can retake game or quit|Input (y/n)|Restart Game or quit accordingly |
+## Low level test plan
+
+| **Test ID** | **Description**                                              | **Exp I/P** | **Exp O/P** | **Actual Out** |    
+|-------------|--------------------------------------------------------------|------------|-------------|----------------|------------------|
+|  L_01       |Check collision of options| Between the choices|no collission|Obtained the required results for all the operations|
+|  L_02       |Check chioce other than the given options|Other invalid options|no invalid choice is considered|Obtained the required results for all the options|
+|  L_03       |Check if functions are returning proper value|Taking choice as input|Returns expected output|Obtained the required results for all the options|
+|  L_04       |Check if functions are genrating proper results with no error|Point to the required choice |Check if returned output is correct with no error |Obtained the required results for all the options|
