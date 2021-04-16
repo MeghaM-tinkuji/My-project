@@ -29,3 +29,23 @@ People suffering with Alzheimer's disease easily forget Thing like who and where
 |LR_01|The application must be able to execute irrespective of OS,provided with GCC compiler,makefile and Static and Dynamic code analysis|
 |LR_02|User data is stored in file|
 |LR_03|User can add new data, update/view/delete existing data|
+# Detailed requirements
+## High Level Requirements: 
+| ID | Description | Category | Status | 
+| ----- | ----- | ------- | ---------|
+| HR01 | Menu Screen | Techincal | Implemented | 
+| HR02 | Grid Display | Techincal | Implemented |
+| HR03 | Coordinate input from user | Techincal | Implemented |
+| HR04 | Can take argument to run the game in development mode | Techincal | Future |
+| HR05 | User can restart the Program or quit | Techincal | Implemented |
+| HR06 | Implement GUI | Techincal | Future |
+
+##  Low level Requirements:
+ 
+| ID | Description | HLR ID | Status (Implemented/Future) |
+| ------ | --------- | ------ | ----- |
+| LR01 | Menu screen options are Start Program, Quit  | HR01 | Implemented  |
+| LR02 | User inputs taken | HR03 | Implemented |
+| LR04 | While running use "dev" as command line argument | HR04 | Future |
+| LR05 | After finishing the program, user can use again or quit. Waits for input from user | HR05 | Future  |
+| LR06 | Use GTK for gui based application | HR06 | Future  |
