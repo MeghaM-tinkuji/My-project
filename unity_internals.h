@@ -1,34 +1,3 @@
-Skip to content
-Search or jump to…
-
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@MeghaM-tinkuji 
-nikhilvas123
-/
-battleships-in-c
-1
-00
-Code
-Issues
-2
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-battleships-in-c/3_Implementation/unity/unity_internals.h
-@nikhilvas123
-nikhilvas123 Copied template
-Latest commit dcb5c9e 4 days ago
- History
- 1 contributor
-1033 lines (901 sloc)  85.7 KB
-  
 /* ==========================================
     Unity Project - A Test Framework for C
     Copyright (c) 2007-19 Mike Karlesky, Mark VanderVoord, Greg Williams
@@ -1062,15 +1031,3 @@ int UnityTestMatches(void);
 
 /* End of UNITY_INTERNALS_H */
 #endif
-© 2021 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
